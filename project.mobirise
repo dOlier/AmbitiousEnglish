@@ -38,7 +38,8 @@
             "P": {
               "font-family": "'Droid Serif', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "font-size": "36px"
+              "font-size": "36px",
+              "color": "#faea1c"
             },
             "B": {
               "color": "#f7c012"
