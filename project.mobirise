@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "versionFirst": "2.4",
     "versionPublish": "3.10.5",
     "name": "My Site",
@@ -26,7 +26,7 @@
           "_styles": {
             "I": {
               "text-align": "center",
-              "color": "#f7da64"
+              "color": "#fac51c"
             },
             "H1": {
               "font-size": "48px",
@@ -38,7 +38,8 @@
             "P": {
               "font-family": "'Droid Serif', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "font-size": "36px"
+              "font-size": "36px",
+              "color": "#fadf1c"
             },
             "B": {
               "color": "#f7da64"
