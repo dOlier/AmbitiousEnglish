@@ -16,10 +16,9 @@
 #header2-0 P {
   font-family: 'Droid Serif', serif;
   font-size: 36px;
-  color: #faea1c;
 }
 #header2-0 B {
-  color: #f7c012;
+  color: #f7da64;
 }
 #ext_menu-1 .mbr-brand__name {
   font-size: 16px;
@@ -28,12 +27,29 @@
   background: #fac51c;
 }
 #ext_menu-1 .mbr-navbar__hamburger {
-  color: #4eb50e;
+  color: #fac51c;
 }
 #ext_menu-1 .mbr-navbar__items a {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
 }
 #ext_menu-1 .mbr-brand__name a {
+  font-size: 20px;
+}
+
+#ext_menu-3 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-3.mbr-navbar--stuck .mbr-navbar__section {
+  background: #fac51c;
+}
+#ext_menu-3 .mbr-navbar__hamburger {
+  color: #fac51c;
+}
+#ext_menu-3 .mbr-navbar__items a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+#ext_menu-3 .mbr-brand__name a {
   font-size: 20px;
 }
