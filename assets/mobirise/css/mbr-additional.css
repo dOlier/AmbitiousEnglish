@@ -38,26 +38,6 @@
   font-size: 20px;
 }
 
-
-
-#header2-3 I {
-  text-align: center;
-  color: #f7da64;
-}
-#header2-3 H1 {
-  font-size: 48px;
-  font-family: 'Droid Serif', serif;
-  text-align: center;
-  color: #0445ed;
-}
-#header2-3 P {
-  font-family: 'Droid Serif', serif;
-  font-size: 36px;
-  color: #faea1c;
-}
-#header2-3 B {
-  color: #f7c012;
-}
 #ext_menu-4 .mbr-brand__name {
   font-size: 16px;
 }
@@ -73,4 +53,10 @@
 }
 #ext_menu-4 .mbr-brand__name a {
   font-size: 20px;
+}
+#content4-a P {
+  color: #2026c6;
+}
+#content4-a .mbr-section__col .mbr-header__text {
+  color: #2026c6;
 }

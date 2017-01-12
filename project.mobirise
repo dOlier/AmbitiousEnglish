@@ -1,13 +1,13 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "News.html",
     "versionFirst": "2.4",
     "versionPublish": "3.10.5",
     "name": "My Site",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "theme": {},
-    "uniqCompNum": 6
+    "uniqCompNum": 11
   },
   "pages": {
     "index.html": {
@@ -99,7 +99,7 @@
             "transparent": true,
             "sticky": true,
             "collapsed": false,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false
           },
@@ -170,64 +170,14 @@
         }
       ]
     },
-    "page1.html": {
+    "News.html": {
       "settings": {
         "title": "Ambitious English",
-        "meta_descr": "Learn English, Business English Vocabulary, Pronunciation Accent reduction. Grammar",
+        "meta_descr": "Learn English, Business English Vocabulary, News in English; BBC; VoA, Voice of America",
         "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
         "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->"
       },
       "components": [
-        {
-          "_inherit": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header2",
-          "_styles": {
-            "I": {
-              "text-align": "center",
-              "color": "#f7da64"
-            },
-            "H1": {
-              "font-size": "48px",
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "text-align": "center",
-              "color": "#0445ed"
-            },
-            "P": {
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "font-size": "36px",
-              "color": "#faea1c"
-            },
-            "B": {
-              "color": "#f7c012"
-            }
-          },
-          "_anchor": "header2-3",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/globe16trio-1009x418-83.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true
-          },
-          "title": "Ambitious English",
-          "text": "<b>English for the 21st century</b><i>&nbsp;</i>",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
-        },
         {
           "_inherit": "menu",
           "_styles": {
@@ -258,7 +208,7 @@
             "transparent": true,
             "sticky": true,
             "collapsed": false,
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "showButtons": false
           },
@@ -277,6 +227,168 @@
           "brand": "<a class=\"mbr-brand__name text-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Ambitious English</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">Home</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">News</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">Resources</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#form1-5\">Contact</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">Comment</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li>   ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-a",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "4",
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "<a href=\"News.html#content4-a\" target=\"_blank\">BBC World Service</a>",
+          "caption1": "Learn English with the worlds oldest broadcaster",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "<a href=\"News.html#content4-a\" target=\"_blank\">Voice of America</a>",
+          "caption2": "World-wide service with news and current affairs",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "<a href=\"News.html#content4-a\" target=\"_blank\">Breaking News English</a>",
+          "caption3": "English lessons based on recent news stories.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "<a href=\"http://www.reuters.com/video\">Reuters</a>",
+          "caption4": "Video news&nbsp;from the most established news agency.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_styles": {
+            "P": {
+              "color": "#2026c6"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "color": "#2026c6"
+            }
+          }
         }
       ]
     }
